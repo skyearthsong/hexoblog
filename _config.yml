@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: 技术博客
+subtitle: 程序员
+description: 技术博客 程序员 hexo
+author: szx
+language:zh-CN
+timezone:东八
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:git
+  repo:git@github.com:skyearthsong/hexoblog.git
+  branch:master
